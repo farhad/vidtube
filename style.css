@@ -14,7 +14,51 @@ img {
     cursor: pointer;
 }
 
-.flex-div {
+.nav-container {
     display: flex;
-    align-items: center ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 10px 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left .app-logo {
+    width: 128px;
+}
+
+.nav-left .menu-icon {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-middle {}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-right .avatar {
+    width: 48px;
+    border-radius: 50%;
+    margin-right: 0;
 }
